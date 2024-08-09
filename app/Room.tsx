@@ -9,7 +9,7 @@ import { RoomProvider } from "@/liveblocks.config";
 const Room = ({ children }: { children: React.ReactNode }) => {
   return (
     <RoomProvider
-      id="fig-room"
+      id='fig-room'
       /**
        * initialPresence is used to initialize the presence of the current
        * user in the room.
@@ -24,7 +24,7 @@ const Room = ({ children }: { children: React.ReactNode }) => {
        */
       initialStorage={{
         /**
-         * We're using a LiveMap to store the canvas objects
+         * LiveMap is used to store the canvas objects
          *
          * LiveMap: https://liveblocks.io/docs/api-reference/liveblocks-client#LiveMap
          */
@@ -36,6 +36,6 @@ const Room = ({ children }: { children: React.ReactNode }) => {
       </ClientSideSuspense>
     </RoomProvider>
   );
-}
+};
 
 export default Room;
