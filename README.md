@@ -46,7 +46,7 @@
 
 ```bash
 git clone https://github.com/xautik/Ligma.git
-cd figma-ts
+cd Ligma
 ```
 
 **Installation**
